@@ -75,3 +75,15 @@ nav {
 .topic1, .topic2, .topic3, .topic4, .topic5, .topic6 {
   border: 1px solid white;
 }
+
+.second-ad {
+  display: flex;
+  height: 300px;
+}
+
+.guide-and-newsletter {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 300px 500px;
+  gap: 50px;
+  background: gray;
+}
