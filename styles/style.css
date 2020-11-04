@@ -17,18 +17,18 @@ nav {
 
 .latest-posts {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 500px;
   background: gray;
 }
 
-.post1, .post2, .post3, .ad1 {
+.post1, .post2, .post3 {
   border: 1px solid white;
 }
 
 .ads-and-posts {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 500px;
   background: gray;
 }
