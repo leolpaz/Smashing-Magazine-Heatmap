@@ -27,7 +27,7 @@ We made a heatmap of Smashing Magazine, showing by scales of gray which part of 
 - Twitter: [@leonardolpaz95](https://twitter.com/leonardolpaz95)
 - LinkedIn: [Leonardo Paz](https://www.linkedin.com/in/leonardo-paz-a925611b5/)
 
-👤 ****
+👤 **Yusuf A. Badmus**
 
 - GitHub: [@ybadmus](https://github.com/ybadmus)
 - Twitter: [@ybadmus](https://twitter.com/ybadmus)
