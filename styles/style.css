@@ -53,3 +53,25 @@ nav {
   border: 1px solid white;
   height: 1400px;
 }
+
+.container {
+  margin: 0px 35px;
+}
+
+.person-of-the-week {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 300px;
+  background: gray;
+}
+
+.topics-of-the-week1, .topics-of-the-week2, .topics-of-the-week3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px;
+  background: gray;
+}
+
+.topic1, .topic2, .topic3, .topic4, .topic5, .topic6 {
+  border: 1px solid white;
+}
