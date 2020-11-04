@@ -33,6 +33,23 @@ nav {
   background: gray;
 }
 
-.ad2, .ad3, .ad4 {
+.ad2, .article1, .article2 {
   border: 1px solid white;
+}
+
+.ads-and-posts2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 500px;
+  background: gray;
+}
+
+.ad3, .article3, .article4 {
+  border: 1px solid white;
+}
+
+.main-ad {
+  background: red;
+  border: 1px solid white;
+  height: 1400px;
 }
