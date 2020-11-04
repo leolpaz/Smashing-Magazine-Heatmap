@@ -11,7 +11,10 @@ nav {
   background: gray;
 }
 
-.author1, .author2, .author3, .author4 {
+.author1,
+.author2,
+.author3,
+.author4 {
   border: 1px solid white;
 }
 
@@ -19,10 +22,12 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 500px;
-  background:  #5d5d5e;
+  background: #5d5d5e;
 }
 
-.post1, .post2, .post3 {
+.post1,
+.post2,
+.post3 {
   border: 1px solid white;
 }
 
@@ -30,10 +35,11 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 350px 350px;
-  
 }
 
-.ad2, .article1, .article2 {
+.ad2,
+.article1,
+.article2 {
   border: 1px solid white;
   background: gray;
 }
@@ -46,10 +52,11 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 350px;
-  
 }
 
-.article3, .article4, .article5 {
+.article3,
+.article4,
+.article5 {
   border: 1px solid white;
   background: gray;
 }
@@ -74,7 +81,6 @@ nav {
   background: gray;
   justify-content: center;
   align-items: center;
-  
 }
 
 .see-all-latest-articles a {
@@ -95,24 +101,31 @@ nav {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 300px;
-  background: #5d5d5e
+  background: #5d5d5e;
 }
 
-.topics-of-the-week1, .topics-of-the-week2, .topics-of-the-week3 {
+.topics-of-the-week1,
+.topics-of-the-week2,
+.topics-of-the-week3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 400px;
   background: gray;
 }
 
-.topic1, .topic2, .topic3, .topic4, .topic5, .topic6 {
+.topic1,
+.topic2,
+.topic3,
+.topic4,
+.topic5,
+.topic6 {
   border: 1px solid white;
 }
 
 .second-ad {
   display: flex;
   height: 300px;
-  background-color:  #434348;
+  background-color: #434348;
 }
 
 .guide-and-newsletter {
@@ -122,18 +135,20 @@ nav {
   gap: 0 1.5em;
 }
 
-.js-guide, .css-guide, .web-guide {
+.js-guide,
+.css-guide,
+.web-guide {
   border: 1px solid white;
   background: gray;
 }
 
 .newsletter {
   border: 1px solid white;
-  background:  #434348;
+  background: #434348;
 }
 
 footer {
-  background:  #434348;
+  background: #434348;
   height: 350px;
 }
 
@@ -141,7 +156,8 @@ footer {
   background: #5d5d5e;
 }
 
-.author3, .ad2 {
+.author3,
+.ad2 {
   background: #434348;
 }
 
