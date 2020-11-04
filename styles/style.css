@@ -29,30 +29,51 @@ nav {
 .ads-and-posts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 500px;
-  background: gray;
+  grid-template-rows: 350px 350px;
+  
 }
 
 .ad2, .article1, .article2 {
   border: 1px solid white;
+  background: gray;
+}
+
+.ad2 {
+  grid-row: span 2;
 }
 
 .ads-and-posts2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
-  grid-template-rows: 500px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 350px;
+  
+}
+
+.article3, .article4, .article5 {
+  border: 1px solid white;
   background: gray;
 }
 
-.ad3, .article3, .article4 {
-  border: 1px solid white;
+.new-on-smash {
+  display: flex;
+  height: 700px;
+  margin-bottom: 20px;
+  background: gray;
+}
+
+.inbetween-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .see-all-latest-articles {
-  background: #575959;
-  height: 250px;
-  text-align: center;
-  margin: 20px 0px;
+  display: flex;
+  width: 17%;
+  height: 50px;
+  background: gray;
+  justify-content: center;
+  align-items: center;
   
 }
 
@@ -91,6 +112,7 @@ nav {
 .second-ad {
   display: flex;
   height: 300px;
+  background-color: gray;
 }
 
 .guide-and-newsletter {
@@ -98,11 +120,11 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 350px 530px;
   gap: 0 1.5em;
-  background: gray;
 }
 
 .js-guide, .css-guide, .web-guide, .newsletter {
   border: 1px solid white;
+  background: gray;
 }
 
 footer {
