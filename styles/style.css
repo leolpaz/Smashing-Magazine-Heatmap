@@ -48,6 +48,13 @@ nav {
   border: 1px solid white;
 }
 
+.see-all-latest-articles {
+  background: #575959;
+  height: 250px;
+  text-align: center;
+  margin: 20px 0px;
+}
+
 .main-ad {
   background: red;
   border: 1px solid white;
