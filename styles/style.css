@@ -4,7 +4,6 @@ nav {
   height: 100px;
   justify-content: space-around;
   align-items: center;
-
 }
 
 nav .logo {
@@ -31,7 +30,7 @@ nav li a {
 
 nav li button {
   padding: 10px 25px;
-  background-color: rgb(167, 152, 152);  
+  background-color: rgb(167, 152, 152);
   cursor: pointer;
 }
 
@@ -49,14 +48,14 @@ nav .search {
 }
 
 .text1 {
-  display:flex;
+  display: flex;
   align-items: center;
   color: black;
   font-size: 72px;
 }
 
 .text2 {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   color: black;
@@ -77,13 +76,13 @@ nav .search {
 }
 
 .text3 h3 {
-  font-family: 'arvo', Courier;
+  font-family: 'arvo', Courier, serif;
   font-size: 32px;
   font-weight: 700;
 }
 
 .text3 p {
-  font-family: Helvetica;
+  font-family: Helvetica, serif;
   font-size: 14px;
   margin-top: 30px;
 }
@@ -126,6 +125,10 @@ nav .search {
 }
 
 .ad2 {
+  color: white;
+  justify-content: space-between;
+  background-color: rgba(164, 168, 159, 0.801);
+  padding: 60px;
   grid-row: span 2;
 }
 
@@ -158,14 +161,14 @@ nav .search {
   align-items: center;
 }
 
-.new-on-smash .content button {
+.new-on-smash button {
   width: 25%;
   padding: 20px 0;
   background-color: rgb(89, 99, 89);
   cursor: pointer;
 }
 
-.new-on-smash .content button:hover {
+button:hover {
   background-color: rgba(107, 107, 247, 0.377);
 }
 
@@ -212,7 +215,7 @@ nav .search {
 h2 {
   font-size: 48px;
   font-weight: 800;
-  font-family: 'arvo';
+  font-family: 'arvo', serif;
 }
 
 .main-thing p {
@@ -235,7 +238,7 @@ h2 {
   display: flex;
   flex-direction: column;
   height: 250px;
-  justify-content: center;  
+  justify-content: center;
   background: #a0a8a6;
   padding-left: 600px;
   padding-right: 50px;
@@ -285,7 +288,7 @@ h2 {
 
 .second-ad button {
   width: 20%;
-  padding: 10px 0px;
+  padding: 10px 0;
   font-size: 18px;
 }
 
@@ -318,7 +321,7 @@ h2 {
 }
 
 .guide-and-newsletter p {
-  font-family: helvetica, arial;
+  font-family: helvetica, arial, serif;
   font-size: 16px;
   margin-bottom: 20px;
 }
@@ -326,8 +329,13 @@ h2 {
 .example-guide .main-button {
   width: 35%;
   font-size: 20px;
-  font-family: 'arvo', courier;
+  font-family: 'arvo', courier, serif;
   padding: 10px 0;
+  background-color: rgb(189, 189, 181);
+}
+
+.example-guide .main-button:hover {
+  background-color: rgb(189, 189, 181);
 }
 
 .pseudo-form {
@@ -365,7 +373,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: white;
-  font-family: 'arvo', arial;
+  font-family: 'arvo', arial, serif;
   font-weight: 800;
 }
 
@@ -414,13 +422,6 @@ footer {
   background: rgb(182, 171, 184);
 }
 
-.ad2 {
-  color: white;
-  justify-content: space-between;
-  background-color: rgba(164, 168, 159, 0.801);
-  padding: 60px;
-}
-
 .article3 {
   background: rgb(224, 212, 212);
 }
@@ -444,6 +445,7 @@ footer {
 .topic3 {
   background: rgb(182, 173, 173);
 }
+
 .topic4 {
   background: rgb(98, 99, 93);
 }
