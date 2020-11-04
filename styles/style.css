@@ -209,9 +209,10 @@ nav .search {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.main-thing h2 {
+h2 {
   font-size: 48px;
   font-weight: 800;
+  font-family: 'arvo';
 }
 
 .main-thing p {
@@ -270,22 +271,63 @@ nav .search {
 
 .second-ad {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 300px;
   background-color: #434348;
+  padding: 25px;
+}
+
+.second-ad p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.second-ad button {
+  width: 20%;
+  padding: 10px 0px;
+  font-size: 18px;
 }
 
 .guide-and-newsletter {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 350px 530px;
+  grid-template-rows: 450px 530px;
   gap: 0 1.5em;
 }
 
-.js-guide,
-.css-guide,
-.web-guide {
+.example-guide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border: 1px solid white;
   background: gray;
+  padding: 15px;
+}
+
+.example-guide h4 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.example-guide h3 {
+  font-family: 'arvo', Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.example-guide p {
+  font-family: helvetica, arial;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.example-guide button {
+  width: 35%;
+  font-size: 20px;
+  font-family: 'arvo', courier;
+  padding: 10px 0;
 }
 
 .newsletter {
