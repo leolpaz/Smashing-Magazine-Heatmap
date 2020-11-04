@@ -19,7 +19,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 500px;
-  background: gray;
+  background:  #5d5d5e;
 }
 
 .post1, .post2, .post3 {
@@ -58,7 +58,7 @@ nav {
   display: flex;
   height: 700px;
   margin-bottom: 20px;
-  background: gray;
+  background: #434348;
 }
 
 .inbetween-container {
@@ -82,7 +82,7 @@ nav {
 }
 
 .main-ad {
-  background: red;
+  background: #434348;
   border: 1px solid white;
   height: 1400px;
 }
@@ -95,7 +95,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 300px;
-  background: gray;
+  background: #5d5d5e
 }
 
 .topics-of-the-week1, .topics-of-the-week2, .topics-of-the-week3 {
@@ -112,7 +112,7 @@ nav {
 .second-ad {
   display: flex;
   height: 300px;
-  background-color: gray;
+  background-color:  #434348;
 }
 
 .guide-and-newsletter {
@@ -122,12 +122,29 @@ nav {
   gap: 0 1.5em;
 }
 
-.js-guide, .css-guide, .web-guide, .newsletter {
+.js-guide, .css-guide, .web-guide {
   border: 1px solid white;
   background: gray;
 }
 
+.newsletter {
+  border: 1px solid white;
+  background:  #434348;
+}
+
 footer {
-  background: #575959;
+  background:  #434348;
   height: 350px;
+}
+
+.author1 {
+  background: #5d5d5e;
+}
+
+.author3, .ad2 {
+  background: #434348;
+}
+
+.author4 {
+  background: #9a9aa5;
 }
