@@ -25,6 +25,10 @@ nav {
   background: #5d5d5e;
 }
 
+.debug {
+  color: rgb(173, 173, 173);
+}
+
 .post1,
 .post2,
 .post3 {
