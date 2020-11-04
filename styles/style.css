@@ -2,6 +2,43 @@ nav {
   display: flex;
   background: rgb(173, 173, 173);
   height: 100px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+nav .logo {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(167, 152, 152);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  padding-right: 30px;
+  font-size: 25px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+nav li button {
+  padding: 10px 25px;
+  background-color: rgb(167, 152, 152);  
+  cursor: pointer;
+}
+
+nav .search {
+  height: 50px;
+  width: 300px;
+  background-color: rgba(63, 62, 62, 0.658);
 }
 
 .author-wrote {
@@ -9,6 +46,27 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 700px 700px;
   background: gray;
+}
+
+.text1 {
+  display:flex;
+  align-items: center;
+  color: black;
+  font-size: 72px;
+}
+
+.text2 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  font-size: 48px;
+  font-family: 'roboto', Courier, monospace;
+}
+
+.text2 p {
+  margin-top: 100px;
+  font-size: 36px;
 }
 
 .author1,
@@ -70,12 +128,33 @@ nav {
   height: 700px;
   margin-bottom: 20px;
   background: #434348;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-on-smash .content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.new-on-smash .content button {
+  width: 25%;
+  padding: 20px 0;
+  background-color: rgb(89, 99, 89);
+  cursor: pointer;
+}
+
+.new-on-smash .content button:hover {
+  background-color: rgba(107, 107, 247, 0.377);
 }
 
 .inbetween-container {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .see-all-latest-articles {
@@ -92,9 +171,40 @@ nav {
 }
 
 .main-ad {
-  background: #434348;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #726e6a;
   border: 1px solid white;
   height: 1400px;
+}
+
+.main-thing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 30%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-thing h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.main-thing p {
+  font-size: 20px;
+  margin: 35px 0;
+}
+
+.main-thing button {
+  border: none;
+  background-color: rgb(206, 190, 202);
+  padding: 25px 95px;
+  cursor: pointer;
 }
 
 .container {
@@ -102,9 +212,8 @@ nav {
 }
 
 .person-of-the-week {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 300px;
+  display: flex;
+  height: 300px;
   background: #5d5d5e;
 }
 
@@ -157,7 +266,7 @@ footer {
 }
 
 .author1 {
-  background: #5d5d5e;
+  background: #94949b;
 }
 
 .author3,
@@ -166,5 +275,40 @@ footer {
 }
 
 .author4 {
-  background: #9a9aa5;
+  background: #4b504d;
+}
+
+.post1 {
+  background: rgb(235, 235, 235);
+}
+
+.post2 {
+  background: rgb(63, 60, 60);
+}
+
+.post3 {
+  background: rgb(128, 134, 136);
+}
+
+.article1 {
+  background: rgb(182, 171, 184);
+}
+
+.ad2 {
+  color: white;
+  justify-content: space-between;
+  background-color: rgba(164, 168, 159, 0.801);
+  padding: 60px;
+}
+
+.article3 {
+  background: rgb(224, 212, 212);
+}
+
+.article4 {
+  background: rgb(187, 186, 173);
+}
+
+.article5 {
+  background: rgb(185, 194, 184);
 }
