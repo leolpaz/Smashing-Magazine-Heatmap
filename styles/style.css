@@ -55,7 +55,7 @@ nav {
 }
 
 .container {
-  margin: 0px 35px;
+  margin: 20px 35px;
 }
 
 .person-of-the-week {
@@ -84,11 +84,16 @@ nav {
 .guide-and-newsletter {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 300px 500px;
-  gap: 50px;
+  grid-template-rows: 350px 530px;
+  gap: 0 1.5em;
   background: gray;
 }
 
 .js-guide, .css-guide, .web-guide, .newsletter {
   border: 1px solid white;
+}
+
+footer {
+  background: #575959;
+  height: 350px;
 }
