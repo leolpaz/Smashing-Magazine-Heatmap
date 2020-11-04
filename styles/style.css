@@ -6,8 +6,11 @@ nav {
 
 .author-wrote {
   display: grid;
-  gap: 10px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-template-rows: 725px 725px;
   background: gray;
+}
+
+.author1, .author2, .author3, .author4 {
+  border: 1px solid white;
 }
