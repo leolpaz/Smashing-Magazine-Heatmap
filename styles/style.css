@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  background: rgb(173, 173, 173);
+  height: 100px;
+}
+
+.author-wrote {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 725px 725px;
+  background: gray;
+}
