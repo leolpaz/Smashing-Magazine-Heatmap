@@ -6,11 +6,33 @@ nav {
 
 .author-wrote {
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 600px 600px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 700px 700px;
   background: gray;
 }
 
 .author1, .author2, .author3, .author4 {
+  border: 1px solid white;
+}
+
+.latest-posts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 500px;
+  background: gray;
+}
+
+.post1, .post2, .post3, .ad1 {
+  border: 1px solid white;
+}
+
+.ads-and-posts {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 500px;
+  background: gray;
+}
+
+.ad2, .ad3, .ad4 {
   border: 1px solid white;
 }
