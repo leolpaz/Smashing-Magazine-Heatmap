@@ -53,6 +53,11 @@ nav {
   height: 250px;
   text-align: center;
   margin: 20px 0px;
+  
+}
+
+.see-all-latest-articles a {
+  padding: 1em 0 5em;
 }
 
 .main-ad {
