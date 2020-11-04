@@ -7,7 +7,7 @@ nav {
 .author-wrote {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  grid-template-rows: 725px 725px;
+  grid-template-rows: 600px 600px;
   background: gray;
 }
 
