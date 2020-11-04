@@ -292,7 +292,7 @@ h2 {
 .guide-and-newsletter {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 450px 530px;
+  grid-template-rows: 450px 830px;
   gap: 0 1.5em;
 }
 
@@ -310,24 +310,40 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.example-guide h3 {
+.guide-and-newsletter h3 {
   font-family: 'arvo', Arial, Helvetica, sans-serif;
   font-size: 36px;
   font-weight: 700;
   margin: 20px 0;
 }
 
-.example-guide p {
+.guide-and-newsletter p {
   font-family: helvetica, arial;
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-.example-guide button {
+.example-guide .main-button {
   width: 35%;
   font-size: 20px;
   font-family: 'arvo', courier;
   padding: 10px 0;
+}
+
+.pseudo-form {
+  display: flex;
+}
+
+.pseudo-form div {
+  height: 35px;
+  width: 80%;
+  background-color: #6f6f77;
+}
+
+.pseudo-form button {
+  font-size: 20px;
+  padding: 0 10px;
+  border: none;
 }
 
 .newsletter {
@@ -336,8 +352,37 @@ h2 {
 }
 
 footer {
-  background: #434348;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #83838f;
   height: 350px;
+}
+
+.browse-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'arvo', arial;
+  font-weight: 800;
+}
+
+.browse-all nav {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 25px;
+  background-color: inherit;
+  margin-top: 15px;
+}
+
+.browse-all nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
 }
 
 .author1 {
