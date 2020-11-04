@@ -69,6 +69,25 @@ nav .search {
   font-size: 36px;
 }
 
+.text3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.text3 h3 {
+  font-family: 'arvo', Courier;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.text3 p {
+  font-family: Helvetica;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
 .author1,
 .author2,
 .author3,
@@ -213,8 +232,22 @@ nav .search {
 
 .person-of-the-week {
   display: flex;
-  height: 300px;
-  background: #5d5d5e;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;  
+  background: #a0a8a6;
+  padding-left: 600px;
+  padding-right: 50px;
+}
+
+.person-of-the-week h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 23px;
+}
+
+.person-of-the-week p {
+  font-size: 19px;
+  margin-top: 40px;
 }
 
 .topics-of-the-week1,
@@ -311,4 +344,27 @@ footer {
 
 .article5 {
   background: rgb(185, 194, 184);
+}
+
+.topic1 {
+  background: rgb(146, 135, 135);
+}
+
+.topic2 {
+  background: rgb(114, 106, 106);
+}
+
+.topic3 {
+  background: rgb(182, 173, 173);
+}
+.topic4 {
+  background: rgb(98, 99, 93);
+}
+
+.topic5 {
+  background: rgb(187, 175, 175);
+}
+
+.topic6 {
+  background: rgb(87, 81, 85);
 }
