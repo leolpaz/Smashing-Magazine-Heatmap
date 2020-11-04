@@ -82,8 +82,13 @@ nav {
 }
 
 .guide-and-newsletter {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 300px 500px;
   gap: 50px;
   background: gray;
+}
+
+.js-guide, .css-guide, .web-guide, .newsletter {
+  border: 1px solid white;
 }
