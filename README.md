@@ -29,9 +29,9 @@ We made a heatmap of Smashing Magazine, showing by scales of gray which part of 
 
 👤 ****
 
-- GitHub: []()
-- Twitter: []()
-- LinkedIn: []()
+- GitHub: [@ybadmus](https://github.com/ybadmus)
+- Twitter: [@ybadmus](https://twitter.com/ybadmus)
+- LinkedIn: [@Yusuf Badmus](https://www.linkedin.com/in/yusuf-badmus-a4532422b4)
 
 ## Acknowledgments
 
