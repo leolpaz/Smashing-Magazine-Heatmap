@@ -10,6 +10,7 @@ nav .logo {
   height: 50px;
   width: 200px;
   background-color: rgb(167, 152, 152);
+  float: left;
 }
 
 nav ul {
@@ -38,6 +39,7 @@ nav .search {
   height: 50px;
   width: 300px;
   background-color: rgba(63, 62, 62, 0.658);
+  float: right;
 }
 
 .author-wrote {
